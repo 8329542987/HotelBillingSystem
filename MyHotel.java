@@ -20,11 +20,11 @@ public class MyHotel {
 			{
 			case 1:
 					System.out.println("Starters:");
-					System.out.println("1:French frices        40Rs.\n");
-					System.out.println("2:noodles              50Rs.\n");
-					System.out.println("3:Veg spring roll      60Rs.\n");
-					System.out.println("4: chilli panner       70Rs.\n");
-					System.out.println("4: Manchurian          80Rs.\n");
+					System.out.println("1:French frices        50Rs.\n");
+					System.out.println("2:noodles              60Rs.\n");
+					System.out.println("3:Veg spring roll      70Rs.\n");
+					System.out.println("4: chilli panner       80Rs.\n");
+					
 					ch1=sc.nextInt();
 						switch(ch1)
 						{
@@ -48,11 +48,7 @@ public class MyHotel {
 							itemorder+="chilli panner \n";
 							q=q+1;
 							break;
-						case 5:
-							total=total+90;
-							itemorder+="Manchurian \n";
-							q=q+1;
-							break;
+						
 						default:
 							System.out.println("invalid choice ");
 							break;
@@ -68,22 +64,22 @@ public class MyHotel {
 				switch(ch1)
 				{
 					case 1:
-						total=total+100;
+						total=total+120;
 						q=q+1;
 						itemorder+="veg thali\n";
 						break;
 					case 2:
-						total=total+120;
+						total=total+130;
 						q=q+1;
 						itemorder+="non-veg thali\n";
 						break;
 					case 3:
-						total=total+180;
+						total=total+200;
 						q=q+1;
 						itemorder+="spcial veg thali\n";
 						break;
 					case 4:
-						total=total+220;
+						total=total+210;
 						q=q+1;
 						itemorder+="special non-veg thali\n";
 						break;
@@ -102,22 +98,22 @@ public class MyHotel {
 				switch(ch1)
 				{
 					case 1:
-						total=total+40;
+						total=total+15;
 						q=q+1;
 						itemorder+="strawberry cake\n";
 						break;
 					case 2:
-						total=total+50;
+						total=total+20;
 						q=q+1;
 						itemorder+="Cupcake\n";
 						break;
 					case 3:
-						total=total+60;
+						total=total+40;
 						q=q+1;
 						itemorder+="Chocolates\n";
 						break;
 					case 4:
-						total=total+70;
+						total=total+80;
 						q=q+1;
 						itemorder+="Ice cream\n";
 						break;
@@ -136,22 +132,22 @@ public class MyHotel {
 				switch(ch1)
 				{
 					case 1:
-						total=total+50;
+						total=total+30;
 						q=q+1;
 						itemorder+="Mocktel\n";
 						break;
 					case 2:
-						total=total+60;
+						total=total+40;
 						q=q+1;
 						itemorder+="mojito\n";
 						break;
 					case 3:
-						total=total+70;
+						total=total+20;
 						q=q+1;
 						itemorder+="IChill\n";
 						break;
 					case 4:
-						total=total+80;
+						total=total+50;
 						q=q+1;
 						itemorder+="Lemon juice\n";
 						break;
